@@ -1,0 +1,25 @@
+#mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+#output {
+    text-align: right;
+    border: 2px solid #303030;
+    height: 60px;
+    color: rgb(76, 73, 80);
+    padding: 10px;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+#calculatorContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
